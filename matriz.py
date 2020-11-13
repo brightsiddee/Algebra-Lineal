@@ -36,5 +36,6 @@ numcol = int(input("Ingrese numero columnas: "))
 matriz = Matriz(numfil, numcol)
  
 # Impresión  
+Autor()
 matriz.ingresarValores()
 matriz.showMatriz()
