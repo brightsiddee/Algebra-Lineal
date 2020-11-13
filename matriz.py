@@ -1,9 +1,10 @@
 #Programa Para Crear una matriz, Asignando los valores
-
+#3er Semestre Grupo 4
+#Álgebra Lineal
 
 
 def Autor():
-    #Escribir Aqui Sus Nombres
+    #Datos de los Autores
     print("Melchor De La Cruz Luis Erick") 
     print("Rossi Aureli Montiel Hernandez")
     print("Edwin Yael Hernandez")
