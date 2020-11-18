@@ -3,7 +3,7 @@
 #Álgebra Lineal
 
 
-def Autor():
+def Autores():
     #Datos de los Autores
     print("Melchor De La Cruz Luis Erick") 
     print("Rossi Aureli Montiel Hernandez")
@@ -37,6 +37,6 @@ numcol = int(input("Ingrese numero columnas: "))
 matriz = Matriz(numfil, numcol)
  
 # Impresión  
-Autor()
+Autores()
 matriz.ingresarValores()
 matriz.showMatriz()
