@@ -30,6 +30,11 @@ class Matriz:
                 print(self.matriz[i][j], end = ' ')
             print()    
     
+    def determinante(self):
+        deter = 1
+        for x in range(self.filas):
+            deter= self.matriz[x][x]*deter
+        print('\nEl determinante de la matriz es = ', deter)
     
 
 numfil = int(input("Ingrese numero filas: "))
@@ -40,3 +45,4 @@ matriz = Matriz(numfil, numcol)
 Autores()
 matriz.ingresarValores()
 matriz.showMatriz()
+matriz.determinante()
